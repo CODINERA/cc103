@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.ProgressBar?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.PointLight?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="673.0" prefWidth="943.0" styleClass="root" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="600.0" prefWidth="214.0">
+         <children>
+            <AnchorPane fx:id="side_anchorpane" prefHeight="673.0" prefWidth="300.0" styleClass="side_anchorpane" stylesheets="@style.css">
+               <children>
+                  <Pane fx:id="inner_pane" layoutX="28.0" layoutY="29.0" prefHeight="48.0" prefWidth="159.0" styleClass="inner_pane" stylesheets="@style.css">
+                     <children>
+                        <Pane fx:id="most_innerPane" layoutX="115.0" prefHeight="48.0" prefWidth="40.0" styleClass="most_innerPane" stylesheets="@style.css">
+                           <children>
+                              <FontAwesomeIcon glyphName="BARS" layoutX="9.0" layoutY="33.0" size="2em" />
+                           </children></Pane>
+                        <Label layoutX="14.0" layoutY="13.0" text="TSEKPOINT">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Button fx:id="BTN_workbench" layoutX="17.0" layoutY="119.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="173.0" styleClass="BTN_workbench" stylesheets="@style.css" text="     HOME" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Tahoma Bold" size="11.0" />
+                     </font>
+                  </Button>
+                  <FontAwesomeIcon fill="WHITE" glyphName="HOME" layoutX="63.0" layoutY="155.0" size="2em" />
+                  <Button fx:id="BTN_workbench11" layoutX="21.0" layoutY="228.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="173.0" styleClass="BTN_workbench1" stylesheets="@style.css" text="VISITORS" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Tahoma Bold" size="11.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="BTN_workbench111" layoutX="21.0" layoutY="301.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="173.0" styleClass="BTN_workbench1" stylesheets="@style.css" text="ACCOUNTS" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Tahoma Bold" size="11.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="BTN_workbench1111" layoutX="21.0" layoutY="371.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="173.0" styleClass="BTN_workbench1" stylesheets="@style.css" text="     REGISTERED  VEHICLE" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Tahoma Bold" size="11.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="BTN_workbench11111" layoutX="21.0" layoutY="446.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="173.0" styleClass="BTN_workbench1" stylesheets="@style.css" text="HISTORY / LOGS" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Tahoma Bold" size="11.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="7.0" layoutY="509.0" pickOnBounds="true" preserveRatio="true" />
+                  <FontAwesomeIcon fill="WHITE" glyphName="USER" layoutX="47.0" layoutY="254.0" size="1.2em" />
+                  <FontAwesomeIcon fill="WHITE" glyphName="LIST" layoutX="45.0" layoutY="325.0" size="1.2em" />
+                  <FontAwesomeIcon fill="WHITE" glyphName="CHECK" layoutX="26.0" layoutY="396.0" size="1.2em" />
+                  <FontAwesomeIcon fill="WHITE" glyphName="HISTORY" layoutX="39.0" layoutY="470.0" size="1.2em" />
+               </children></AnchorPane>
+         </children>
+      </VBox>
+      <Pane prefHeight="673.0" prefWidth="729.0">
+         <children>
+            <Pane layoutY="14.0" prefHeight="64.0" prefWidth="729.0">
+               <children>
+                  <TextField fx:id="SEARCH_TEXT" layoutX="277.0" layoutY="15.0" promptText="SEARCH:" styleClass="SEARCH_TEXT" stylesheets="@style.css">
+                     <font>
+                        <Font name="Tahoma Bold" size="14.0" />
+                     </font></TextField>
+                  <FontAwesomeIcon fill="#947d7d" glyphName="SEARCH" layoutX="246.0" layoutY="40.0" size="2em" wrappingWidth="24.34667704480256" />
+                  <FontAwesomeIcon glyphName="GEAR" layoutX="616.0" layoutY="41.0" size="2em" />
+                  <FontAwesomeIcon glyphName="USER" layoutX="672.0" layoutY="41.0" size="2em" />
+                  <Label layoutX="23.0" layoutY="9.0" text="DASHBOARD" textFill="#3c21a8">
+                     <font>
+                        <Font name="Arial Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="36.0" text="FRIDAY" textFill="WHITE" />
+                  <Label layoutX="74.0" layoutY="36.0" text="10  May  2024" />
+               </children>
+            </Pane>
+            <Label layoutX="31.0" layoutY="90.0" text="Streamlining vehicle identification for &#10;enhanced campus security " textFill="#1252a4">
+               <font>
+                  <Font name="Tahoma Bold" size="32.0" />
+               </font>
+            </Label>
+            <Pane fx:id="pane_1" layoutX="20.0" layoutY="418.0" prefHeight="200.0" prefWidth="139.0" styleClass="pane_1" stylesheets="@style.css">
+               <children>
+                  <Label layoutX="23.0" layoutY="21.0" text="Label" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="27.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="54.0" text="123-3" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="27.0" />
+                     </font>
+                  </Label>
+                  <ProgressBar fx:id="progress_Bar" layoutX="14.0" layoutY="161.0" prefHeight="14.0" prefWidth="111.0" progress="0.66" styleClass="progress_Bar" stylesheets="@style.css" />
+                  <Label layoutX="23.0" layoutY="126.0" text="fuck" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="70.0" layoutY="126.0" text="001-1" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="pane_11" layoutX="174.0" layoutY="418.0" prefHeight="200.0" prefWidth="139.0" styleClass="pane_11" stylesheets="@style.css">
+               <children>
+                  <Label layoutX="23.0" layoutY="21.0" text="Label" textFill="#f8f8f8">
+                     <font>
+                        <Font name="System Bold Italic" size="27.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="54.0" text="123-3" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="27.0" />
+                     </font>
+                  </Label>
+                  <ProgressBar fx:id="progress_Bar1" layoutX="14.0" layoutY="161.0" prefHeight="14.0" prefWidth="111.0" progress="0.66" styleClass="progress_Bar" stylesheets="@style.css" />
+                  <Label layoutX="23.0" layoutY="126.0" text="fuck" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="70.0" layoutY="126.0" text="001-1" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="pane_12" layoutX="327.0" layoutY="418.0" prefHeight="200.0" prefWidth="139.0" styleClass="pane_12" stylesheets="@style.css">
+               <children>
+                  <Label layoutX="23.0" layoutY="21.0" text="Label" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="27.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="54.0" text="123-3" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="27.0" />
+                     </font>
+                  </Label>
+                  <ProgressBar fx:id="progress_Bar2" layoutX="14.0" layoutY="161.0" prefHeight="14.0" prefWidth="111.0" progress="0.66" styleClass="progress_Bar" stylesheets="@style.css" />
+                  <Label layoutX="23.0" layoutY="126.0" text="fuck" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="70.0" layoutY="126.0" text="001-1" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="pane_111" layoutX="481.0" layoutY="418.0" prefHeight="200.0" prefWidth="227.0" styleClass="pane_111" stylesheets="@style.css">
+               <children>
+                  <Label fx:id="text_panel" layoutX="23.0" layoutY="21.0" stylesheets="@style.css" text="Label" textFill="#fff9f9">
+                     <font>
+                        <Font name="System Bold Italic" size="27.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="54.0" text="123-3" textFill="#cbcde1">
+                     <font>
+                        <Font name="System Bold Italic" size="27.0" />
+                     </font>
+                  </Label>
+                  <ProgressBar fx:id="progress_Bar11" layoutX="14.0" layoutY="161.0" prefHeight="14.0" prefWidth="111.0" progress="0.66" styleClass="progress_Bar" stylesheets="@style.css" />
+                  <Label layoutX="23.0" layoutY="126.0" text="fuck">
+                     <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="0.13333333333333333" startY="0.45714285714285713">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.10989278554916382" green="0.33184292912483215" blue="0.5394737124443054" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+                  <Label layoutX="70.0" layoutY="126.0" text="001-1">
+                     <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="0.13333333333333333" startY="0.45714285714285713">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.10989278554916382" green="0.33184292912483215" blue="0.5394737124443054" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+               </children>
+            </Pane>
+            <Label layoutX="76.0" layoutY="178.0" />
+            <Pane fx:id="pane_long" layoutX="21.0" layoutY="189.0" prefHeight="192.0" prefWidth="689.0" styleClass="pane_long" stylesheets="@style.css" />
+            <Label layoutX="532.0" layoutY="640.0" opacity="0.65" text="VOLTES-PAYB DEV CORPS" />
+            <FontAwesomeIcon glyphName="AT" layoutX="513.0" layoutY="654.0" opacity="0.57" />
+            <PointLight layoutX="524.0" layoutY="143.0" lightOn="true">
+               <color>
+                  <Color red="0.4429824650287628" green="0.6315789222717285" blue="0.25438597798347473" />
+               </color>
+            </PointLight>
+         </children>
+      </Pane>
+   </children>
+</HBox>
