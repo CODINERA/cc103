@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="673.0" prefWidth="1000.0" styleClass="root" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox fx:id="V_box" prefHeight="600.0" prefWidth="214.0" styleClass="V_box" stylesheets="@style.css">
+         <children>
+            <AnchorPane fx:id="side_anchorpane" prefHeight="673.0" prefWidth="300.0" styleClass="side_anchorpane" stylesheets="@style.css">
+               <children>
+                  <Button fx:id="BTN_workbench" layoutX="23.0" layoutY="199.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="173.0" styleClass="Home" stylesheets="@visitor.css" text="     HOME" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Tahoma Bold" size="11.0" />
+                     </font>
+                  </Button>
+                  <FontAwesomeIcon fill="WHITE" glyphName="HOME" layoutX="69.0" layoutY="235.0" size="2em" />
+                  <Button fx:id="BTN_workbench11" layoutX="24.0" layoutY="282.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="173.0" styleClass="visitors" stylesheets="@visitor.css" text="VISITORS" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Tahoma Bold" size="11.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="BTN_workbench111" layoutX="24.0" layoutY="355.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="173.0" styleClass="BTN_workbench1" stylesheets="@style.css" text="ACCOUNTS" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Tahoma Bold" size="11.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="BTN_workbench1111" layoutX="24.0" layoutY="425.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="173.0" styleClass="BTN_workbench1" stylesheets="@style.css" text="     REGISTERED  VEHICLE" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Tahoma Bold" size="11.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="BTN_workbench11111" layoutX="24.0" layoutY="500.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="173.0" styleClass="BTN_workbench1" stylesheets="@style.css" text="HISTORY / LOGS" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font name="Tahoma Bold" size="11.0" />
+                     </font>
+                  </Button>
+                  <FontAwesomeIcon fill="WHITE" glyphName="USER" layoutX="50.0" layoutY="308.0" size="1.2em" />
+                  <FontAwesomeIcon fill="WHITE" glyphName="LIST" layoutX="48.0" layoutY="379.0" size="1.2em" />
+                  <FontAwesomeIcon fill="WHITE" glyphName="CHECK" layoutX="29.0" layoutY="450.0" size="1.2em" />
+                  <FontAwesomeIcon fill="WHITE" glyphName="HISTORY" layoutX="42.0" layoutY="524.0" size="1.2em" />
+                  <ImageView fitHeight="151.0" fitWidth="158.0" layoutX="29.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Downloads/438267639_263983266727472_6636749608966999018_n-removebg-preview.png" />
+                     </image>
+                     <effect>
+                        <Bloom />
+                     </effect>
+                  </ImageView>
+               </children></AnchorPane>
+         </children>
+      </VBox>
+      <Pane prefHeight="673.0" prefWidth="788.0">
+         <children>
+            <Pane layoutY="14.0" prefHeight="64.0" prefWidth="786.0" styleClass="UPPER_PANEL" stylesheets="@visitor.css">
+               <children>
+                  <TextField fx:id="SEARCH_TEXT" layoutX="380.0" layoutY="16.0" prefHeight="31.0" prefWidth="139.0" promptText="SEARCH:" styleClass="SEARCH_TEXT" stylesheets="@style.css">
+                     <font>
+                        <Font name="Tahoma Bold" size="14.0" />
+                     </font></TextField>
+                  <Label layoutX="24.0" layoutY="15.0" text="DASHBOARD" textFill="#3c21a8" textOverrun="WORD_ELLIPSIS" underline="true">
+                     <font>
+                        <Font name="Arial Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="36.0" text="FRIDAY" textFill="WHITE" />
+                  <Label layoutX="74.0" layoutY="36.0" text="10  May  2024" />
+                  <Button layoutX="532.0" layoutY="12.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="45.0" styleClass="DASHBOARD" stylesheets="@visitor.css">
+                     <graphic>
+                        <FontAwesomeIcon glyphName="QUESTION" size="2em" />
+                     </graphic>
+                  </Button>
+                  <Button layoutX="592.0" layoutY="12.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="45.0" styleClass="DASHBOARD" stylesheets="@visitor.css" />
+                  <FontAwesomeIcon glyphName="GEAR" layoutX="608.0" layoutY="40.0" size="2em" />
+                  <Button layoutX="652.0" layoutY="13.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="45.0" styleClass="DASHBOARD" stylesheets="@visitor.css">
+                     <graphic>
+                        <FontAwesomeIcon glyphName="USER" size="2em" />
+                     </graphic>
+                  </Button>
+               </children>
+            </Pane>
+            <Label layoutX="76.0" layoutY="178.0" />
+            <Label layoutX="611.0" layoutY="650.0" opacity="0.65" text="VOLTES-PAYB DEV CORPS" />
+            <FontAwesomeIcon glyphName="AT" layoutX="592.0" layoutY="664.0" opacity="0.57" />
+            <AnchorPane layoutX="68.0" layoutY="216.0" prefHeight="421.0" prefWidth="548.0" styleClass="PANE_TABLE" stylesheets="@visitor.css">
+               <children>
+                  <TableView layoutX="10.0" layoutY="10.0" prefHeight="406.0" prefWidth="665.0">
+                    <columns>
+                      <TableColumn prefWidth="56.0" text="    ID" />
+                      <TableColumn prefWidth="129.0" text="              NAME" />
+                        <TableColumn prefWidth="127.0" text="          PURPOSE" />
+                        <TableColumn prefWidth="120.0" text="     VEHIVLE TYPE" />
+                        <TableColumn prefWidth="120.0" text="           TIME-IN" />
+                        <TableColumn prefWidth="110.0" text="       TIME-OUT" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+            <Pane layoutX="324.0" layoutY="90.0" prefHeight="120.0" prefWidth="202.0" styleClass="pane_111" stylesheets="@visitor.css">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" text="Total Visitors" />
+               </children>
+            </Pane>
+            <Pane layoutX="540.0" layoutY="90.0" prefHeight="120.0" prefWidth="202.0" styleClass="pane_111" stylesheets="@visitor.css">
+               <children>
+                  <Label layoutX="17.0" layoutY="13.0" text="On-Going" />
+               </children>
+            </Pane>
+            <Label layoutX="76.0" layoutY="102.0" text="DAILY &#10;ACTIVITIES">
+               <font>
+                  <Font name="Tahoma Bold" size="38.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</HBox>

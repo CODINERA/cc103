@@ -38,23 +38,23 @@
     
 }
 
-.BTN_workbench{
-    -fx-background-color: #353A56;
-    -fx-border-width: 2px 2px 2px 2px;
-    -fx-border-radius: 30px;
-    -fx-background-radius: 30px;
-    -fx-border-style: Solid;
-    
-    
-}
-
-.BTN_workbench1{
+.Home{
     -fx-background-color: #353A56;
     -fx-border-width: 2px 2px 2px 2px;
     -fx-border-radius: 30px;
     -fx-background-radius: 30px;
     -fx-border-style: Solid;
     -fx-border-color: #353A56;
+    
+}
+
+.ACCOUNT{
+    -fx-background-color: #353A56;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+    -fx-border-style: Solid;
+    -fx-border-color: #000000;
     
 }
 
@@ -68,22 +68,23 @@
     
 }
 
-.pane_1{
-    -fx-background-color: #ffffff;
-    -fx-border-width: 8px 8px 8px 8px;
-    -fx-border-radius: 13px;
-    -fx-background-radius: 13px;
+.UPPER_PANEL{
+    -fx-background-color: #cccccc;
+    -fx-border-width: 3px 0px 3px 0px;
+    -fx-border-radius: 1px;
+    -fx-background-radius: 1px;
     -fx-border-style: Solid;
-    -fx-border-color: #6666ff;
+    -fx-border-color: #666666;
     
 }
 
-.progress_Bar{
-    -fx-border-color: #ffffff;
-    -fx-border-width: 2px 2px 2px 2px;
-    -fx-border-radius: 16px;
-    -fx-background-radius: 16px;
-    -fx-background-color:  #ffffff;
+.PANE_TABLE{
+    -fx-border-color: #cccccc;
+    -fx-border-width: 5px 5px 5px 5px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-background-color: #9999ff;
+    
 }
 
 .pane_11{
@@ -97,17 +98,17 @@
 
 .pane_12{
     -fx-border-color: #330099;
-    -fx-border-width: 8px 8px 8px 8px;
-    -fx-border-radius: 13px;
-    -fx-background-radius: 13px;
+    -fx-border-width: 5px 5px 5px 5px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
     -fx-background-color: #ffffff;
 }
 
 .pane_111{
     -fx-border-color: #000066;
-    -fx-border-width: 8px 8px 8px 8px;
-    -fx-border-radius: 13px;
-    -fx-background-radius: 13px;
+    -fx-border-width: 5px 5px 5px 5px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
     -fx-background-color: #ffffff;
 }
 
@@ -130,9 +131,8 @@
 .DASHBOARD{
     -fx-border-color: #000066;
     -fx-border-width: 3px 3px 3px 3px;
-    -fx-border-radius: 13px;
-    -fx-background-radius: 13px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
     -fx-background-color: #ffffff;
-    
         
 }
